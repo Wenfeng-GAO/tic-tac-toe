@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.game {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 380px;
+}
+
+.game-board {
+  margin: 10px;
+  display: inline-table;
+  float: left;
+  width: 160px;
+  height: 160px;
+}
+
+.game-info {
+  color: black;
+  margin: 10px;
+  display: inline-table;
+  float: left;
+}
+
+.board-row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square-selected {
+  color: darkseagreen;
+}
+
+.list-selected {
+  color: darkcyan;
+  font: bold;
+  font-size: 1.2em;
+}
+
+.list {
+  color: darkgrey;
+}
+
+.status-header-next {
+  color: darkcyan;
+  margin-top: 0;
+}
+
+.status-header-winner {
+  color: darkseagreen;
+  margin-top: 0;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
